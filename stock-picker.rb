@@ -15,8 +15,7 @@ def stock_picker(stock_prices)
         best_profit = profit
         best_buy_index = index
         best_sell_index = j
-        resul[0] = best_buy_index
-        resul[1] = best_sell_index
+        resul = [best_buy_index, best_sell_index]
       end
       #puts "#{index} : #{stock_price} and j : #{j}"
     end
